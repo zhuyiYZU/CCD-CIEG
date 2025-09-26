@@ -1,0 +1,9 @@
+标题是：{"placeholder": "text_a"}，正文内容是：{"placeholder": "text_b"}，标题图片的描述为：{"placeholder": "text_c","from": "meta"}，根据上面三者的一致性判断该标题 {"placeholder": "text_a"} 的类别 {"mask"}。
+请判断以下信息是否一致，若一致回答news，否则回答clickbait。标题：{"placeholder": "text_a"}，内容：{"placeholder": "text_b"}，图片描述：{"placeholder": "text_c"}，你的判断：{"mask"}。
+根据以下标题、正文与图片描述，判断标题是否夸大或误导，输出类别（clickbait或news）：标题：{"placeholder": "text_a"}，正文：{"placeholder": "text_b"}，图片描述：{"placeholder": "text_c"}，结果：{"mask"}。
+我有一个新闻信息：标题：{"placeholder": "text_a"}，正文：{"placeholder": "text_b"}，图片描述：{"placeholder": "text_c"}，请问这个标题是clickbait还是news？答案：{"mask"}。
+请判断标题与正文、图片描述是否一致，若一致标记为news，否则标记为clickbait。标题：{"placeholder": "text_a"}，正文：{"placeholder": "text_b"}，图片描述：{"placeholder": "text_c"}，标签：{"mask"}。
+Title: {"placeholder": "text_a"}, Content: {"placeholder": "text_b"}, Image description: {"placeholder": "text_c"}, Are these consistent? Classify the title as {"mask"} (clickbait or news)。
+{"placeholder": "text_a"}，{"placeholder": "text_b"}，{"placeholder": "text_c"}，Label: {"mask"}。
+请先简要说明标题与正文、图片描述是否相符，然后输出最终类别（clickbait或news）：标题：{"placeholder": "text_a"}，正文：{"placeholder": "text_b"}，图片描述：{"placeholder": "text_c"}，结论：{"mask"}。
+以下信息可能缺失，请根据可用信息判断标题一致性并输出类别：标题：{"placeholder": "text_a"}，正文（如有）：{"placeholder": "text_b"}，图片描述（如有）：{"placeholder": "text_c"}，类别：{"mask"}。
